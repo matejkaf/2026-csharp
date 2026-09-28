@@ -8,6 +8,8 @@
   "editor.stickyScroll.enabled": false,
   "editor.inlayHints.enabled": "off",
   "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "explorer.compactFolders": false,
   "explorer.excludeGitIgnore": true,
   "files.exclude": {
