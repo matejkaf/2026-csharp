@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# reset chat.disableAIFeatures in .vscode/settings.json to true to avoid AI features in VSCode
+sed -i 's/"chat.disableAIFeatures": false/"chat.disableAIFeatures": true/' .vscode/settings.json
+
 action="create"
 if [[ $# -eq 2 && "$1" == "--delete" ]]; then
   action="delete"
