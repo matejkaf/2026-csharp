@@ -13,6 +13,8 @@
   "explorer.compactFolders": false,
   "explorer.excludeGitIgnore": true,
   "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 30,
   "files.exclude": {
     ".devcontainer": true,
     ".vscode": true,
