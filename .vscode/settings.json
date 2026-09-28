@@ -20,6 +20,7 @@
     ".vscode": true,
     ".gitignore": true,
     "ConsoleApp.slnx": true,
+    "**/.*": true,
     "**/*.csproj": true
   }
 }
