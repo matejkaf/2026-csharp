@@ -15,6 +15,17 @@ else
   exit 1
 fi
 
+# Umlaute umschreiben und Punkte und Leerzeichen durch Unterstriche ersetzen
+project_name="${project_name//Ä/Ae}"
+project_name="${project_name//Ö/Oe}"
+project_name="${project_name//Ü/Ue}"
+project_name="${project_name//ä/ae}"
+project_name="${project_name//ö/oe}"
+project_name="${project_name//ü/ue}"
+project_name="${project_name//ß/ss}"
+project_name="${project_name//./_}"
+project_name="${project_name// /_}"
+
 if [[ ! "$project_name" =~ ^[A-Za-z][A-Za-z0-9_]*$ ]]; then
   echo "Der Projektname muss mit einem Buchstaben beginnen und darf nur Buchstaben, Zahlen oder Unterstriche enthalten."
   exit 1
