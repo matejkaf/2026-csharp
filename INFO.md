@@ -12,6 +12,14 @@ Im Terminal:
 
 Verwende die Übungsbezeichnung als Projektnamen.
 
+# Starten des Compilers und Programm
+
+Verwende Tastenkürzel `Ctrl-Shift-B` (Menü: Terminal > Run Build Task...)
+
+Die angezeigten Fehler bleiben im PROBLEMS Tab bis zum nächsten ausführen von `Ctrl-Shift-B`.
+
+Hintergrund: Beim starten über den Pfeil rechts oben im Editor Fenster (von der C# Extension zur Verfügung gestellt) werden einige Fehler nicht im PROBLEMS Tab dargestellt.
+
 # VS Code Extensions
 
 ```sh
