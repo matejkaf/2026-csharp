@@ -59,6 +59,7 @@ if [[ -e "$project_dir" ]]; then
 fi
 
 dotnet new console --output "$project_dir" --name "$project_name" --use-program-main
+sed -i 's|<Nullable>enable</Nullable>|<Nullable>disable</Nullable>|' "$project_file"
 program_file="$project_dir/Program.cs"
 {
   printf '// ------------------------------\n// %s\n// ------------------------------\n\n' "$project_name"
