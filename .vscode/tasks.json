@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Neues C# Projekt für coding.htl-braunau.at",
+            "type": "shell",
+            "command": "./new.sh \"${input:projectName}\"",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "clear": true
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "projectName",
+            "type": "promptString",
+            "description": "Projektname, z.B. Übung 2.1 (Schulklasse)"
+        }
+    ]
+}

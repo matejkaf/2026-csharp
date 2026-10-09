@@ -4,13 +4,22 @@ HTL Coding Server: `coding.htl-braunau.at` (auch von Extern erreichbar)
 
 # Neues Projekt anlegen
 
-Im Terminal:
+Verwende die Übungsbezeichnung als Projektnamen.
+
+## Über VS Code
+
+1. `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`) → **Tasks: Run Task** → **Neues Projekt**
+2. Projektname eingeben, z.B. `Übung 2.1 (Schulklasse)`, und mit Enter bestätigen
+
+Umlaute, Leerzeichen, Punkte und Klammern werden automatisch umgewandelt, das Projekt landet in `src/Uebung_2_1_Schulklasse`.
+
+## Neues Projekt im Terminal
+
+Alternativ kann ein neues Projekt auch im Terminal angelegt werden:
 
 ```sh
-./new.sh Uebung_1_1
+./new.sh
 ```
-
-Verwende die Übungsbezeichnung als Projektnamen.
 
 # VS Code Extensions
 
