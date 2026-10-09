@@ -8,7 +8,7 @@ Verwende die Übungsbezeichnung als Projektnamen.
 
 ## Über VS Code
 
-1. `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`) → **Tasks: Run Task** → **Neues Projekt**
+1. `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`) → **Tasks: Run Task** → **Neues C# Projekt für coding.htl-braunau.at**
 2. Projektname eingeben, z.B. `Übung 2.1 (Schulklasse)`, und mit Enter bestätigen
 
 Umlaute, Leerzeichen, Punkte und Klammern werden automatisch umgewandelt, das Projekt landet in `src/Uebung_2_1_Schulklasse`.
