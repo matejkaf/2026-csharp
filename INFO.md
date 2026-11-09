@@ -21,6 +21,12 @@ Alternativ kann ein neues Projekt auch im Terminal angelegt werden:
 ./new.sh
 ```
 
+## Bestehendes Projekt löschen
+
+```sh
+./new.sh --delete "ProjektName"
+```
+
 # VS Code Extensions
 
 ```sh
